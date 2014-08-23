@@ -1,0 +1,7 @@
+# depslib dependency file v1.0
+1408786412 source:c:\users\erick\desktop\asuntos personales\proyecto\arboles\src\main.cpp
+	"main.h"
+	<SFML/Graphics.hpp>
+
+1408786393 c:\users\erick\desktop\asuntos personales\proyecto\arboles\include\main.h
+
