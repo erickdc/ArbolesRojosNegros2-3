@@ -5,3 +5,27 @@
 
 1408786393 c:\users\erick\desktop\asuntos personales\proyecto\arboles\include\main.h
 
+1409437780 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\main.cpp
+	"main.h"
+	"Node.h"
+	<SFML/Graphics.hpp>
+	"Edge.h"
+
+1408786393 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\main.h
+
+1409437769 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\node.cpp
+	"Node.h"
+	<iostream>
+	<stdlib.h>
+
+1409437769 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\node.h
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
+1409434893 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\edge.cpp
+	"Edge.h"
+
+1409434841 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\edge.h
+	<SFML/Graphics.hpp>
+	<SFML/Window.hpp>
+
