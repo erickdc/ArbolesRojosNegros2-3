@@ -2,23 +2,23 @@
 #include  <iostream> ;
 #include <stdlib.h>
 float Node::radius = 50.0f;
-Node::Node(int data,float posX,float posY,sf::Color color)
+Node::Node(int data,float posX,float posY)
 {
 
-    circle.setFillColor(color);
+    circle.setFillColor(sf::Color::Black);
     circle.setRadius(radius);
     circle.setPosition(posX,posY);
-    //circle.setOutlineThickness(10);
-    //circle.setOutlineColor(sf::Color(250, 150, 100));
+    this->posX= posX;
+    this->posY= posY;
     value = data;
-    left = NULL;
-    right = NULL;
-    p  = NULL;
+    izquierdo = NULL;
+    derecho = NULL;
+    padre  = NULL;
 
 
-    char chString[4];
+    char chString[32];
 
-//convert to string
+    //convert to string
     itoa(data, chString, 10); //stdlib.h
      font.loadFromFile("SugarcubesBold.ttf");
      valueText = sf::Text(chString,font);

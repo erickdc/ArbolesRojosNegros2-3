@@ -5,6 +5,8 @@ Edge::Edge(float posXI,float posYI,float posXF,float posYF )
     line[0]=sf::Vertex(sf::Vector2f(posXI, posYI));
     line[1]=sf::Vertex(sf::Vector2f(posXF,posYF));
 
+    line[0].color=sf::Color::Black;
+    line[1].color=sf::Color::Black;
 }
 
 

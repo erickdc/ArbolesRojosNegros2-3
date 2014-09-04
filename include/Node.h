@@ -2,6 +2,8 @@
 #define NODE_H
 #include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include <string>
+#include <iostream>
 //#include <CircleShape.hpp>
 
 class Node
@@ -15,11 +17,11 @@ class Node
         sf::Text valueText;
 
         int value;
-        Node* left;       // left child
-        Node* right;      // right child
-        Node* p;
-        char color[];        // parent
-        Node(int data, float posX,float posY,sf::Color color);
+        Node* izquierdo;       // left child
+        Node* derecho;      // right child
+        Node* padre;
+        std::string color;        // parent
+        Node(int data, float posX,float posY);
 
         void render( sf::RenderWindow* w);
         void setColor (sf::Color color);

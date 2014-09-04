@@ -5,27 +5,36 @@
 
 1408786393 c:\users\erick\desktop\asuntos personales\proyecto\arboles\include\main.h
 
-1409437780 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\main.cpp
+1409867859 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\main.cpp
 	"main.h"
 	"Node.h"
 	<SFML/Graphics.hpp>
 	"Edge.h"
+	"RedBlackTree.h"
 
 1408786393 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\main.h
 
-1409437769 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\node.cpp
+1409867664 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\node.cpp
 	"Node.h"
 	<iostream>
 	<stdlib.h>
 
-1409437769 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\node.h
+1409864139 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\node.h
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
+	<string>
+	<iostream>
 
-1409434893 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\edge.cpp
+1409591829 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\edge.cpp
 	"Edge.h"
 
 1409434841 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\edge.h
 	<SFML/Graphics.hpp>
 	<SFML/Window.hpp>
+
+1409867726 source:c:\users\erick\documents\github\arbolesrojosnegros2-3\src\redblacktree.cpp
+	"RedBlackTree.h"
+
+1409865346 c:\users\erick\documents\github\arbolesrojosnegros2-3\include\redblacktree.h
+	"Node.h"
 
