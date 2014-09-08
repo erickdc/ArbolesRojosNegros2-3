@@ -1,6 +1,8 @@
 #include "RedBlackTree.h"
- static int screenWidth= 1024;
- static int screenHeight = 768 ;
+
+static int screenWidth= 1024;
+static int screenHeight = 768 ;
+
 RedBlackTree::RedBlackTree()
 {
     this->raiz= NULL;

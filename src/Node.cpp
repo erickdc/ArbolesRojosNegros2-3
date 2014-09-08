@@ -2,6 +2,7 @@
 #include  <iostream> ;
 #include <stdlib.h>
 float Node::radius = 50.0f;
+
 Node::Node(int data, float posX, float posY){
 
     circle.setFillColor(sf::Color::Black);

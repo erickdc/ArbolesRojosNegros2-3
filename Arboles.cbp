@@ -36,10 +36,12 @@
 		<Unit filename="include/Edge.h" />
 		<Unit filename="include/Node.h" />
 		<Unit filename="include/RedBlackTree.h" />
+		<Unit filename="include/TwoTreeThree.h" />
 		<Unit filename="include/main.h" />
 		<Unit filename="src/Edge.cpp" />
 		<Unit filename="src/Node.cpp" />
 		<Unit filename="src/RedBlackTree.cpp" />
+		<Unit filename="src/TwoTreeThree.cpp" />
 		<Unit filename="src/main.cpp" />
 		<Extensions>
 			<code_completion />

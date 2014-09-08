@@ -3,6 +3,7 @@
 #include <SFML/Graphics.hpp>
 #include "Edge.h"
 #include "RedBlackTree.h"
+#include "TwoTreeThree.h"
 
 
  static int screenWidth= 1024;
@@ -17,6 +18,8 @@ int main()
     tree.insertar(9);
     tree.insertar(5);
      tree.insertar(3);
+
+     TwoTreeThree arbol;
     while (window.isOpen())
     {
         sf::Event event;
